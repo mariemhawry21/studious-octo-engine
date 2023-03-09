@@ -302,16 +302,18 @@ footer >img:first-child {
 }
 a {
     text-decoration: none;
+    margin-bottom: 15px;
+    color: black;
 }
-li:hover{
+a:hover{
     color: var(--StrongCyan);
 }
 li{
     list-style-type: none;
-    margin-bottom: 15px;
-    color: black;
 }
 .col {
+display: flex;
+flex-direction: column;
 margin-right: 3rem;
 }
 .icon svg {
